@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap');
+  
+  .decodeButton {
+    position: absolute;
+    left: 800px;
+  }
+  
+  #decodedMessage {
+    font-size: 70px;
+    position: absolute;
+    right: 150px;
+    top: 400px;
+  }
+  
+ .stegoImage {
+  position: absolute;
+  right: 255px;
+ }
+  .decodeDiv{
+    position: absolute;
+    top: 720px;
+    right: 690px;
+    
+  }
+  
+h1.reveal-message {
+  position: absolute;
+  left: -1040px;
+  top: 330px;
+  width: 800px;
+  font-size: 23px;
+}
+  
+  .revealButton {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+ .steg-body {
+  position: absolute;
+  top: 300px;
+  right:418px;
+  z-index: 2;
+ }
+
+ .inputText {
+  font-size: 15px;
+  position: absolute;
+  right: 640px;
+  border: solid 2px black;
+  top: 225px;
+margin-bottom: 50px;
+resize: "none";
+height: 85px; 
+width: 400px;
+ }
+ 
+ .upload {
+  position: absolute;
+  right: 640px;
+  top: 50px;
+  width: 400px;
+  border: solid 2px black;
+ }
+
+ .encode-button {
+position: absolute;
+right: 735px;
+  top: 340px;
+ }
+
+ .clear-button {
+  position: absolute;
+  right: 650px;
+    top: 340px;
+   }
+
+   .cards {
+    position: absolute;
+    right: -2px;
+    top: 50px;
+   }
+
+   
+
+   .decodedText {
+    font-size: 20px;
+    position: absolute;
+    right: 16px;
+    top: 46px;
+    z-index: 11;
+   width: 485px;
+   border: solid 2px black;
+   height: 265px;
+   }
+
+
+   .decode-card {
+    position: absolute;
+    right: 697px;
+    top: 70px;
+   }
+
+.decode-button {
+  height: 30px;
+  width: 62px;
+  position: absolute;
+  right: 680px;
+  top: 350px;
+  z-index: 1;
+ 
+}
+
+.h1-decode {
+  font-size: 13px;
+  margin-top: -0.5px;
+margin-left: -10px;
+
+}
+
+.clearButton {
+  position: absolute;
+  right: 17px;
+    top: 317px;
+    z-index: 1;
+    border: solid 2px black;
+   }
+
+
+   .upload-decode{
+ 
+    width: 0.1px;
+    height: 0.1px;
+    background-color: rgb(54, 5, 94);
+  
+   }
+   .upload-button {
+    position: absolute;
+    z-index: 1;
+    right: 689px;
+    top: 34px;
+    height: 18px;
+    width: 18px;
+     border-radius: 3px;
+    border: solid 1.5px blue;
+    background-color: rgb(4, 255, 4);
+  
+   }
+
+  .plus {
+    position: absolute;
+    top: -19px;
+    right: 2px;
+    
+  }
+.your-encrypted-image-text {
+  font-family: 'Alumni Sans', sans-serif;
+  font-size: 20;
+  position: absolute;
+  width: 346px;
+  right: 674px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 6px;
+  top: 8px;
+  color: rgb(153, 243, 145);
+  text-shadow: 2px 2px 2px rgb(61, 8, 131);
+  font-weight: 900;
+outline: solid 2px rgb(0, 0, 0);
+background-color: rgb(110, 17, 197);
+border-radius: 3px;
+
+}
+
+.decoded-message-wrapper {
+  color: rgb(172, 248, 85);
+  text-shadow: 2px 2px 2px rgb(54, 5, 94);
+  -webkit-text-stroke: 1% rgb(2, 54, 11); 
+  z-index: 1;
+  width: 500px;
+  height: 350px;
+  position: absolute;
+   top: 23px;
+   right: 95px;
+   background-color: rgb(132, 10, 247);
+   border: solid 2px black;
+   border-radius: 5px;
+padding-left: 20px;
+padding-bottom: 5px;
+font-family: 'Alumni Sans', sans-serif;
+}
+
+.your-decoded-message-is {
+  position: absolute;
+  top: -19.75px;
+}
+
